@@ -1,38 +1,39 @@
 # Reinforcementlearning-snakegame
-#  Applying the concepts of Deep Q-learning to train a system agent to play the Snake game.
-
+This project applies Deep Q-learning to train an agent to play the classic Snake game. The goal is to enable the agent to improve over time and eventually perform as well as, or better than, a human player.
 ##  Track:
 Machine Learning (ML)
-
-## Contributors:
-* Arnav Oruganty
-* Gourav Anirudh
-* Subhash Hari
-
 ## Problem Statement:
-To train a system agent to learn and eventually(after a lot of training) be as good if not better than us at the classic Snake game.
-
+To train an agent that learns through reinforcement to excel at playing the Snake game after substantial training.
 ## Goal:
-Our aim was to successfully use the concepts of Deep Q-learning and train a system agent to play a version of the Snake game implemented by us.
-
+Leverage Deep Q-learning to train the system agent to play a custom Snake game implemented from scratch. 
 ## Tech Stack:
 * Python
-    * Pytorch
-    * Pygame
-    * Matplotlib
-    * Ipython 
-    * Random
-    * Numpy
-    * Collections
-    * enum
+    * PyTorch (for building and training neural networks)
+    * Pygame (for game development)
+    * Matplotlib (for visualizing results)
+    * Ipython (for interactive sessions)
+    * Random (for random number generation)
+    * Numpy (for array operations)
+    * Collections (for data structures)
+    * Enum (for enumerations)
 
 ## How to Run:
-* Make sure all the files in the repository are downloaded into the same folder.
-* Make sure all the necessary modules are already installed onto the system.
-* Run the "agent.py" file as it controls the game and it imports the necessary other files and functions.
-* Two windows will pop up, one showing the game and other a graph of current score and also a rolling average.
-* Let the model learn for a while, upto about 150 games and be amazed by the results.
-
+### Setup Environment
+1. Clone the repository and navigate to the project directory:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the main file to start the game and training process:
+   ```bash
+   python agent.py
+   ```
+## Gameplay & Training
+- 
 ## Applications:
 Our idea can further be extended to train the system agent to control other games by just changing the game state parameters, the reward function and the complexity of the neural network, we went with a simpler game as this was our first hackathon and we wanted to implement everything from scratch. 
 
