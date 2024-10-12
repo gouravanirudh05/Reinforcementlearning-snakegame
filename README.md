@@ -58,3 +58,7 @@ Despite its simplicity compared to other projects, we built everything from the 
 ## Demo Video:
 Check out a demo of the game [here](https://youtu.be/b_aoi2JPUTY).
 
+## License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+
