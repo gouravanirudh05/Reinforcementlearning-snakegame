@@ -18,11 +18,12 @@ Leverage Deep Q-learning to train the system agent to play a custom Snake game i
     * Enum (for enumerations)
 
 ## How to Run:
+
 ### Setup Environment
 1. Clone the repository and navigate to the project directory:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/gouravanirudh05/Reinforcementlearning-snakegame.git
+   cd  Reinforcementlearning-snakegame
    ```
 2. Install the required dependencies:
    ```bash
@@ -33,17 +34,27 @@ Leverage Deep Q-learning to train the system agent to play a custom Snake game i
    python agent.py
    ```
 ## Gameplay & Training
-- 
+- Two windows will open:
+  1.The game window, displaying the Snake game.
+  2.A graph window, showing the current score and a rolling average of scores across games.
+- The agent will learn over the course of many games (recommended: ~150 games). Watch the agent improve its performance over time.
 ## Applications:
-Our idea can further be extended to train the system agent to control other games by just changing the game state parameters, the reward function and the complexity of the neural network, we went with a simpler game as this was our first hackathon and we wanted to implement everything from scratch. 
-
+ This approach can be generalized to other games by adjusting:
+ - Game state parameters
+ - Reward functions
+ - Complexity of the neural network
+We chose the Snake game to focus on learning and implementing everything from scratch in our first hackathon. However, the framework could be extended to more complex games.
 ## Further Improvements:
-* We could have had a better UI for the game or even chosen a more complicated game.
-* We could have added other elements like bonus points or score multipliers etc. to make the game more fun.
-* We could have implemented the model such that it was more accurate by either adding more layers to the neural network or even optimising the reward function, we could have also exploited the tradeoff between exploration and exploitation to try more random things at the start. 
+* UI Enhancement: The game's interface could be made more visually appealing.
+* Game Elements: Adding features like bonus points, score multipliers, or additional obstacles for greater gameplay depth.
+* Model Optimization:
+  -  More layers could be added to the neural network for increased accuracy.
+  - The reward function could be fine-tuned.
+  - Better handling of the exploration-exploitation tradeoff, with more exploration at the beginning, could further improve learning.
 
 ## Conclusion
-* We would like to end by saying that even though our idea does not seem as complicated as some others, we built everything including the game from the ground up as compared to others who have just used a bunch of pre-trianed models and combined them, also we feel that our project is more aligned with the track 'ML' than some others who have just built a great UI for their models.
+Despite its simplicity compared to other projects, we built everything from the ground up, including the game, and focused on the core concepts of reinforcement learning. This contrasts with others who may have used pre-trained models and simply combined them with a fancy UI. We believe our project is more aligned with the Machine Learning track as it applies core ML principles.
 
 ## Demo Video:
-* https://youtu.be/b_aoi2JPUTY
+Check out a demo of the game [here](https://youtu.be/b_aoi2JPUTY).
+
